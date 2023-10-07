@@ -1,7 +1,7 @@
 class classeHeroi{
-	constructor(nome, idade, tipo){
+	constructor(nome, nivel, tipo){
       this.nome = nome
-      this.idade = idade
+      this.nivel = nivel
       this.tipo = tipo
       this.ataque
       
@@ -19,7 +19,7 @@ class classeHeroi{
     }
     
     atacar(){
-    	console.log(`O ${this.tipo} ${this.nome} atacou usando ${this.ataque}`)
+    	console.log(`O ${this.tipo} ${this.nome} nível ${this.nivel} atacou usando ${this.ataque}`)
     }      
 }
 
